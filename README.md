@@ -1,10 +1,10 @@
-### run code 
+# run code 
 
-## pip install requirements.txt
+### pip install requirements.txt
 
-## uvicorn main:app --reload
+### uvicorn main:app --reload
 
-## streamlit run UI.py
+###  streamlit run UI.py
 
 
 ### To insert values to items tabel
