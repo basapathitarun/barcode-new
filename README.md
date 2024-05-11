@@ -7,7 +7,7 @@
 ###  streamlit run UI.py
 
 
-### To insert values to items tabel
+# To insert values to items tabel
 
 #### INSERT INTO public."Items"(
 ####	"Item_Id", "ItemName", "Price")
