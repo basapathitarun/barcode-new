@@ -1,14 +1,30 @@
-# run code 
+# Project Title : Barcode Reader
 
-### pip install requirements.txt
+# Introduction 
+  This project helps to Scan barcode,add to cart, gets total cost.
 
-### uvicorn main:app --reload
+# TechStack 
+  - FastApi
+  - PostgreSQL
+  - Streamlit
 
-###  streamlit run UI.py
+# Features 
+  - Scan Bar code
+  - Add to Cart
+  - Gets Total cost of items in Cart
+
+# Run code 
+  ## Install necassary modules 
+     - pip install -r requirements.txt
+  ## Run Backend code 
+     - uvicorn main:app --reload
+  ## Run Frontend code
+     - streamlit run UI.py
+     
 
 
 # To insert values to items tabel
 
-#### INSERT INTO public."Items"(
-####	"Item_Id", "ItemName", "Price")
-####	VALUES ('Ab1234', 'Apple', 120000);
+-INSERT INTO public."Items"(
+"Item_Id", "ItemName", "Price")
+VALUES ('Ab1234', 'Apple', 120000);
